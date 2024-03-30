@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        const PI = 3.14;
+        const radius = 3;
+        
+        function area_of_circle(radius){
+            const area = PI * radius * radius
+            console.log("This is Argument and Return Function")
+            return console.log ( `Area of Circle is ${area}\n\n----`)
+        }
+        area_of_circle(3);
+
+       
+        function area_of_circle2(){
+            const area = PI * radius * radius
+            console.log("This is NO Argument and Return Function")
+            return console.log ( `Area of Circle is ${area}\n\n----`)
+        }
+
+        area_of_circle2();
+
+        function area_of_circle3(radius){
+            const area = PI * radius * radius
+            console.log("This is Argument and NO Return Function")
+            console.log ( `Area of Circle is ${area}\n\n----`)
+        }
+
+        area_of_circle3(3)
+
+        function area_of_circle4(){
+            const area = PI * radius * radius
+            console.log("This is NO Argument and Return Function")
+            console.log ( `Area of Circle is ${area}`)
+        }
+        area_of_circle4()
+        
+    </script>
+</body>
+</html>
